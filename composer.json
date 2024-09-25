@@ -1,0 +1,26 @@
+{
+    "name": "pcb-org/pcb-kernel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PcbKernel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PcbKernel\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cyberee63",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.10"
+    }
+}
